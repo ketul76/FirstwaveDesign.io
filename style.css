@@ -5,11 +5,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .home {
     position: relative;
 }
-
+button{
+    cursor: pointer;
+}
 .header {
     display: flex;
     justify-content: space-between;
@@ -461,12 +462,75 @@ padding-top: 16px;
     width: 18px;
     height: 26px;
 }
+.testimonial{
+    background: #E5E5E5;
+    padding: 17px;
+    padding-left: 50px;
+    position: relative;
+}
+.quatoes{
+    padding-top: 86px;
+}
+.quatoes h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    font-feature-settings: 'liga' off;
+    color: #1F284F;
+    position: relative;
+    padding-left: 96px;
+    padding-top: 56px;
+}
+.quatoes p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    font-feature-settings: 'liga' off;
+    color: #575757;
+    padding-left: 96px;
+    padding-top: 8px;
+    padding-bottom: 56px;
+}
+.quato-img img{
+    position: absolute;
+}
+.testimonial-cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.testimonial-card1{
+    width: 350px;
+    height: 436px;
+    left: 355px;
+    top: 312px;   
+    background: #FFFFFF; 
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 16px;
+}
+.testimonial-card2{
+    width: 445px;
+    height: 340px;
+    background: red;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 16px;
+    position: relative;
+    margin-top: -130px;
+    margin-left: -150px;
+}
 
-
-
-
-
-
+.testimonial-card3{
+    width: 350px;
+    height: 276px;
+    background: green;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 16px;
+    position: absolute;
+    right: 0;
+}
 
 
 
@@ -478,8 +542,8 @@ padding-top: 16px;
 
 
 /* MEdia Query part  */
-/* 
-@media screen and (max-width: 1170px) {
+
+/* @media screen and (max-width: 1170px) {
     .header li,button{
         display: none;
     }
@@ -552,6 +616,24 @@ padding-top: 16px;
     }
     .discription{
         padding-bottom: 0;
+    }
+    .info{
+        align-items: center;
+        flex-direction: column-reverse;
+        gap: 0;
+        flex-wrap: nowrap;
+    }
+    .info button{
+        width: 100%;
+    }
+    .programcards{
+        gap: 0;
+    }
+    .programscard1, .programscard2{
+        gap: 0;
+    }
+    .programcard1,.programcard2,.programcard3,.programcard4{
+        padding-bottom: 16px;
     }
 }
 
@@ -822,6 +904,7 @@ padding: 0;
     flex-direction: column;
     align-items: center;
     gap: 16px;
+   
 }
 .decisioncards img{
     width: 18px;
