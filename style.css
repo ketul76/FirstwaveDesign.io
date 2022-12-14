@@ -1,0 +1,868 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 95px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.logo-img {
+    width: 196px;
+    height: 34px;
+}
+
+ul li {
+    color: #17181A;
+    padding: 0 25px;
+}
+
+.demo-btn button {
+    padding: 11px 20px;
+    background: #3CBA79;
+    border-radius: 30px;
+    border: none;
+    color: #FFFFFF;
+}
+
+.menubar {
+    font-size: 25px;
+    display: none;
+}
+
+.round {
+    width: 48px;
+    height: 48px;
+    background: rgba(0, 112, 240, 0.9);
+    border-radius: 50%;
+    position: absolute;
+    left: -24px;
+}
+
+.homePage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 55px 95px;
+}
+
+.homePage h1 {
+    font-size: 50px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #1F284F;
+    padding: 16px 0;
+}
+
+.homePage img {
+    width: 464px;
+    height: 464px;
+    position: relative;
+}
+
+.homePage p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #575757;
+    padding: 16px 0;
+}
+
+span {
+    color: #000000;
+    font-weight: 600;
+}
+
+form {
+    margin: 10px 0;
+}
+
+label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #575757;
+}
+
+.biground {
+    width: 170px;
+    height: 170px;
+    background: rgba(0, 112, 240, 0.9);
+    opacity: 0.3;
+    border-radius: 50%;
+    position: absolute;
+    left: -103px;
+    top: 495px;
+}
+
+.smallround {
+    width: 32px;
+    height: 32px;
+    background-color: gray;
+    position: absolute;
+    top: 595px;
+    left: 50%;
+    background: #5956E9;
+    border-radius: 16px;
+}
+
+.square {
+    position: absolute;
+    width: 114px;
+    height: 114px;
+    background: #8C30F5;
+    transform: matrix(0.71, -0.71, -0.71, -0.71, 0, 0);
+    top: 405px;
+    right: 35%;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+input[type="radio"]:checked+label {
+    color: #17181A;
+}
+
+.companypage {
+    background: #FAFBFC;
+}
+
+.companypage h1 {
+    padding-top: 80px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #1F284F;
+}
+
+.compaines {
+    padding: 100px 150px 80px 150px;
+}
+
+.companylist1 {
+    padding-bottom: 16px;
+}
+
+.about {
+    background: #E5E5E5;
+}
+
+.about .about-desc {
+    padding-top: 63px;
+    padding-left: 104px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-feature-settings: 'liga' off;
+    color: rgba(0, 112, 240, 0.9);
+}
+
+.about h1 {
+    padding-left: 100px;
+    padding-top: 16px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #1F284F;
+}
+
+.about-btn {
+    padding-top: 24px;
+    padding-left: 100px;
+}
+
+.about-btn button:first-child {
+    padding: 12px 24px;
+    background: rgba(0, 112, 240, 0.9);
+    border: 1px solid rgba(0, 112, 240, 0.9);
+    border-radius: 30px;
+    color: #FFFFFF;
+}
+
+.about-btn button {
+    padding: 12px 24px;
+    border-radius: 30px;
+    background: #FAFBFC;
+    border: 1px solid #B7BFC7;
+}
+
+.paragraph-1 {
+    padding-top: 32px;
+    padding-left: 104px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #17181A;
+}
+
+.about h6 {
+    padding-left: 100px;
+    padding-top: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    font-feature-settings: 'liga' off;
+    color: #575757;
+}
+
+.cards {
+    padding-top: 44px;  
+    padding-bottom: 84px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 26px;
+}
+.card1 {
+    width: 363px;
+    height: 256px;
+    background-color: white;
+    border: 1px solid #E1E8F0;
+    border-radius: 16px;
+}
+.frames-1{
+    width: 284px;
+    height: 176px;
+    margin: 40px;
+}
+.frames-1 img{
+    padding-bottom: 24px;
+}
+.frames-1 p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #17181A;
+}
+
+
+.ourprograms{
+    width: 100%;
+    background: #FAFBFC;
+}
+.programimg{
+    padding-top: 56px;
+    padding-bottom: 102px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    gap: 95px;
+    flex-wrap: wrap;
+}
+.discription{
+    padding-top: 137px;
+    padding-bottom: 169px;
+}
+.discription p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-feature-settings: 'liga' off;
+    color: rgba(0, 112, 240, 0.9);
+}
+.discription h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #1F284F;
+    padding-top: 16px;
+}
+.discription h6{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+color: #575757;
+padding-top: 16px;
+}
+.discription-btn button{
+    background: rgba(0, 112, 240, 0.9);
+    border: 1px solid rgba(0, 112, 240, 0.9);
+    border-radius: 30px;
+    padding: 12px 24px;
+    color: #fff;
+}
+.featurecards{
+    padding-top: 16px;
+}
+.feature1,.feature2{
+    display: flex;
+    align-items: center;
+}
+.feature1text,.feature2text{
+    padding-left: 28px;
+}
+.feature1{
+    padding-bottom: 24px;
+}
+.feature1text h4,.feature2text h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    font-feature-settings: 'liga' off;
+    color: #17181A;
+    padding-bottom: 4px;
+}
+.feature1text p,.feature2text p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    font-feature-settings: 'liga' off;
+    color: #575757;
+}
+.programcards{
+    display: flex;
+    justify-content: center;
+    gap: 68px;
+    padding-bottom: 96px;  
+    flex-wrap: wrap;
+}
+.programcard1,.programcard2,.programcard3,.programcard4{
+   display: flex;
+    align-items: center;     
+}
+.programscard1,.programscard2{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.programscard1 p,.programscard2 p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    font-feature-settings: 'liga' off;
+    color: #575757;
+}
+.programscard1 h4,.programscard2 h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    font-feature-settings: 'liga' off;
+    color: #1F284F;
+    padding-bottom: 8px;
+}
+.programcards img{
+    padding-right: 68px;
+}
+
+.desicion-page{
+    background: #1F384F;
+    margin: 22px 40px 64px 40px;
+    border-radius: 16px;
+}
+
+.desicion-page h1{
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 44px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+.decision-btn{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 44px;
+}
+.decision-btn button{
+    background: #3CBA79;
+    border: 1px solid #3CBA79;
+    border-radius: 30px;
+    padding: 12px 24px;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+.decisioncards p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+.dicision-1{
+    width: 350px;
+    height: 72px;
+    display: flex;
+    gap: 16px;
+
+}
+.decisioncards{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 104px;
+    flex-wrap: wrap;
+}
+.decisioncards img{
+    width: 18px;
+    height: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEdia Query part  */
+/* 
+@media screen and (max-width: 1170px) {
+    .header li,button{
+        display: none;
+    }
+    .menubar{
+        display: block;
+    }
+    .round{
+        display: none;
+    }
+    .header{    
+        flex-direction: row-reverse;
+        padding: 17px 0;
+        padding-left: 16px;
+    }
+    .logo-img{
+        margin: 0 auto;
+    }
+} */
+
+@media screen and (max-width: 992px) {
+
+    .header li,
+    .header button {
+        display: none;
+    }
+
+    .menubar {
+        display: block;
+        padding-left: 50px;
+    }
+
+    .round {
+        display: none;
+    }
+
+    .header {
+        flex-direction: row-reverse;
+        padding: 17px 0;
+        /* padding-left: 16px; */
+    }
+
+    .logo-img {
+        margin: 0 auto;
+    }
+
+    .homePage {
+        flex-direction: column-reverse;
+    }
+
+    .square {
+        right: 70%;
+    }
+
+    .compaines {
+        padding-top: 50px;
+        margin: 0;
+    }
+
+    .compaines h1 {
+        padding: 50px;
+    }
+
+    .about h6,
+    .about-btn,
+    .about .paragraph-1,
+    .about h1,
+    .about p {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .discription{
+        padding-bottom: 0;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .homePage img {
+        display: none;
+    }
+
+    .homePage h1 {
+        font-weight: 700;
+        font-size: 36px;
+    }
+
+    .homePage p {
+        font-weight: 400;
+        font-size: 18px;
+        padding-top: 16px;
+    }
+
+    .homePage {
+        padding-top: 78px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin: 0;
+        padding-bottom: 10px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 16px;
+    }
+
+    label {
+        padding-bottom: 16px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #17181A;
+    }
+    .homePage button {
+        width: 100%;
+        border: #3CBA79;
+    }
+    .biground {
+        display: none;
+    }
+
+    .homePage button {
+        width: 100%;
+    }
+
+    .square {
+        display: none;
+    }
+
+    .smallround {
+        display: none;
+    }
+
+    .companypage h1 {
+        padding-left: 19px;
+        padding-right: 13px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 32px;
+    }
+
+    .companypage img {
+        width: 102.48px;
+        height: 72px;
+
+    }
+
+    .companylist2 {
+        padding-left: 19px;
+        padding-right: 13px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .companylist1 {
+        display: none;
+    }
+
+    .about h1 {
+        padding-top: 24px;
+        padding-left: 11px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .about .paragraph-1{
+        display: none;
+    }
+
+    .about-btn {
+        padding-top: 24px;
+        padding-left: 11px;
+    }
+
+    .about h6 {
+        padding-top: 24px;
+        padding-left: 11px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .about-btn button {
+        padding: 8px 16px;
+    }
+
+    .cards {
+        padding-top: 44px;
+        display: flex;
+        gap: 16px;
+        padding-bottom: 84px;   
+        padding-left: 11px;
+        padding-right: 22px;
+    }
+    .card1{
+        width: 343px;
+        height: 176px;
+        border-radius: 16px;
+    }
+    .frames-1{
+        width: 292px;
+        height: 120px;
+        margin: 32px 25px 24px 25px;
+    }
+    .frames-1 img{
+        width: 32px;
+        height: 32px;
+        padding-bottom: 16px;
+    }
+    .frames-1 p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+ 
+    .info{
+        align-items: center;
+        flex-direction: column-reverse;
+        gap: 0;
+        flex-wrap: nowrap;
+    }
+    .discription p{
+        padding: 32px 16px 21px 16px;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 2px;
+    }
+    .discription h1{
+        padding-bottom: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .discription h6{
+        padding-bottom: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .featurecards img{
+        height: 24px;
+        width: 24px;
+    }
+    .featurecards{
+        padding-left: 16px;
+        padding-bottom: 16px;
+    } 
+    .feature1text,.feature2text{
+        padding-left: 20px;
+    }
+    .feature1text h4,.feature2text h4{
+        font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+    }
+.feature1text p,.feature2text p{
+    font-weight: 400;
+    font-size: 16px;
+line-height: 26px;
+padding: 0;
+}
+.discription-btn{
+   padding-left: 22px;
+   padding-right: 8px;
+}
+.discription-btn button{
+    width: 100%;
+    padding: 12px 12px;
+    border-radius: 30px;
+}
+.programimg{
+    width: 343px;
+    height: 522.46px;  
+    border-radius: 120px; 
+    padding-left: 22px;
+    padding-right: 8px;
+}
+.programcards{
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    padding-left: 22px;
+    padding-right: 8px;
+}
+.programcards img{
+    padding-right: 36px;
+}
+.programscard1,.programscard2{
+    gap:0;
+}
+.programcard1,.programcard2,.programcard3,.programcard4{
+    padding-bottom: 16px;
+}
+
+
+.desicion-page{  
+    margin: 22px 16px 64px 16px;
+    border-radius: 16px;
+}
+.desicion-page h1{
+    padding-top: 15px;
+    padding-bottom: 24px;
+
+}
+.decision-btn{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 24px;
+}
+.decisioncards p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+.dicision-1{
+    width: 295px;
+    height: 72px;
+    display: flex;
+}
+.decisioncards{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 16px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.decisioncards img{
+    width: 18px;
+    height: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 350px) {
+    .companylist2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .info{
+        gap: 25px;
+    }
+}
+
+
+@media screen and (max-width: 1100px) {
+   .programimg{
+    padding-bottom: 15px;
+   }
+   .discription{
+    padding-top: 0;
+   }
+}
