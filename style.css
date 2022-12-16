@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .home {
     position: relative;
 }
@@ -472,15 +471,20 @@ padding-top: 16px;
 /* Testimonial part */
 
 .testimonial{
-    background-color: #000000;
     width: 100%;
-}
-.story{
+    background: #E5E5E5;
     position: relative;
-    width: 445px;
-    height: 136px;
+    min-height: 100vh;
 }
-.storycardtext h1{
+.testimonial-title{
+    position: relative;
+    left: 45px;
+}
+.testimonial-title h2{
+    position: absolute;
+    top: 0;
+    left: 95px;
+    top: 55px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -488,20 +492,56 @@ padding-top: 16px;
     line-height: 48px;
     font-feature-settings: 'liga' off;
     color: #1F284F;
+}
+.testimonial-title p{
     position: absolute;
+    top: 158px;
     left: 95px;
-    top: 55px;
 }
-.storycardtext p{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 32px;
-    font-feature-settings: 'liga' off;
-    color: #575757;
+.testimonial-card1{
+    width: 350px;
+    height: 436px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 16px;
     position: absolute;
+    top: 200px;
+    left: 200px;
 }
+.testimonial-card2{
+    width: 445px;
+    height: 340px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 16px;
+    position: absolute;
+    top: 15px;
+   right: 320px;
+}
+.testimonial-card3{
+    width: 350px;
+    height: 276px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 16px;
+    position: absolute;
+    bottom: 15px;
+    right: 415px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Footer part */
 
@@ -1098,7 +1138,9 @@ footer{
     .copyright{
         gap: 25px;
     }
-
+    hr{
+        display: block;
+    }
 }
 
 
