@@ -5,6 +5,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+li a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #17181A;
+}
 .home {
     position: relative;
 }
@@ -475,10 +483,11 @@ padding-top: 16px;
     background: #E5E5E5;
     position: relative;
     min-height: 100vh;
+    padding: 25px;
 }
 .testimonial-title{
     position: relative;
-    left: 45px;
+    left: 25px;
 }
 .testimonial-title h2{
     position: absolute;
@@ -500,38 +509,97 @@ padding-top: 16px;
 }
 .testimonial-card1{
     width: 350px;
-    height: 436px;
+    height: 375px;
     background: #FFFFFF;
     box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
     border-radius: 16px;
-    position: absolute;
-    top: 200px;
-    left: 200px;
 }
 .testimonial-card2{
     width: 445px;
-    height: 340px;
+    height: 270px;
     background: #FFFFFF;
     box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
     border-radius: 16px;
     position: absolute;
-    top: 15px;
-   right: 320px;
+    top: -25%;
 }
 .testimonial-card3{
     width: 350px;
-    height: 276px;
+    height: 220px;
     background: #FFFFFF;
     box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
     border-radius: 16px;
     position: absolute;
-    bottom: 15px;
-    right: 415px;
+    top: 50%;
 }
-
-
-
-
+.testimonial-cards{
+    display: flex;
+    gap: 30px;
+    padding-top: 80px;
+    padding-left: 190px;
+}
+.another-cards{
+    position: relative;
+}
+.testimonialimg{
+    margin-left: 16px;
+    margin-top: 16px;
+}
+.hubspot{
+    width: 254px;
+    height: 290px;
+    margin-top: 8px;
+    margin-left: 60px;
+    padding: 10px; 
+}
+.airbnb{
+    width: 381px;
+    height: 185px;
+    margin-top: 8px;
+    margin-left: 35px;
+    padding: 10px;
+}
+.bookmyshow{
+    width: 254px;
+    height: 140px;
+    margin-top: 8px;
+    margin-left: 50px;
+    padding: 10px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 16px;
+}
+.profile p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 10px;
+    font-feature-settings: 'liga' off;
+    color: #575757;
+}
+.profile h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+    font-feature-settings: 'liga' off;
+    color: #1F284F;
+}
+.airbnb p,.bookmyshow p,.hubspot p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    font-feature-settings: 'liga' off;
+    color: #17181A;
+}
+.para{
+    padding-left: 16px;
+}
 
 
 
@@ -1107,7 +1175,26 @@ footer{
 .opmentek-features h3{
     padding-bottom: 0;
 }
-
+.testimonial-title{
+   position: static;
+   left: 0;
+}
+.testimonial-title h2{
+    position: static;
+   
+}
+.testimonial-title P{
+    position: static;
+}
+.testimonial-title img{
+    display:none;
+}
+.testimonial-card2{
+    position: static;
+}
+.another-cards{
+    position: static;
+}
 
 
 
@@ -1158,6 +1245,34 @@ footer{
    .discription{
     padding-top: 0;
    }
+
+   /* TEstimonial Part Start */
+
+   .another-cards{
+    position: static;
+   }
+   .testimonial-card2 ,.testimonial-card3{
+    position: static;
+   }
+   .testimonial-card1,.testimonial-card2,.testimonial-card3{
+    width: 450px;
+    height: 350px;
+   }
+   .testimonial-cards{
+    padding-top: 55px;
+    flex-wrap: wrap;
+    padding-left: 0;
+    justify-content: center;
+   }    
+   .testimonial-card3{
+    display: none;
+   }
+   .testimonial-title{
+    left: 25%;
+   }
+
+
+   /* TEstimonial Part End */
 }
 
 
@@ -1182,4 +1297,5 @@ footer{
    hr{
     display: none;
    }
+
 }
