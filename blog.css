@@ -139,6 +139,17 @@ li a {
         color: #0070F0;
         border: none;
     }
+    progress{
+        width: 320px;
+        height: 3px;
+    }
+    progress[value] {
+        -webkit-appearance: none;
+    }
+    progress[value]::-webkit-progress-value{
+        background-color: black;
+    }
+
 /* blog home page css end */
 
 /* Our-blog CSS Start */

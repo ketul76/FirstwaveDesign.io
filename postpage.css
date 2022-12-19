@@ -70,14 +70,6 @@ li a {
         width: 410px;
         height: 530px;
     }
-    /* .halfimg img{
-        width: 95px;
-        height: 100px;
-    }
-    .halfimg1 img{
-        width: 95px;
-        height: 100px;
-    } */
     .hometext{
         padding-right: 30px;
         padding-top: 85px;
@@ -173,7 +165,7 @@ li a {
          color: #575757;
          padding-bottom: 48px;
       }
-      .answer-questions span{
+      .answer-questions span a{
         color: #006ff7;
       }
 
@@ -299,6 +291,7 @@ li a {
     font-size: 16px;
     color: #0070F0;
     border: none;
+    background-color: transparent;
 }
 .read-more{
     display: flex;
