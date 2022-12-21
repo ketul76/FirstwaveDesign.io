@@ -755,8 +755,8 @@ footer{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 12px;
+    line-height: normal;
     color: #17181A;
     font-feature-settings: 'salt' on, 'liga' off;
 }

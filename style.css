@@ -521,7 +521,7 @@ padding-top: 16px;
     box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
     border-radius: 16px;
     position: absolute;
-    top: -25%;
+    top: -30%;
 }
 .testimonial-card3{
     width: 350px;
@@ -530,7 +530,7 @@ padding-top: 16px;
     box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
     border-radius: 16px;
     position: absolute;
-    top: 50%;
+    top: 45%;
 }
 .testimonial-cards{
     display: flex;
@@ -696,8 +696,8 @@ footer{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 12px;
+    line-height: normal;
     color: #17181A;
     font-feature-settings: 'salt' on, 'liga' off;
 }

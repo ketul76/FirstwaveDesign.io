@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.801) !important;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+
+/* Header part css start */
+
+.menubar {
+    display: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 55px;
+    background-color: #fafbfc;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+li {
+    padding: 16px 25px;
+}
+
+li a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #17181A;
+}
+
+.demo-btn button {
+    padding: 11px 20px;
+    background: rgba(0, 112, 240, 0.9);
+    border-radius: 30px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+/* Header part css end */
+/* company manager home page start */
+    .manager{
+        background: #FAFBFC;
+        padding: 70px;
+    }
+    .company-leader{
+        display: flex;
+        gap: 40px;
+    }
+    .manager-img img{
+        width: 500px;
+        height: 415px;
+    }
+    .manager-text{
+        padding-top: 15px;
+    }
+    .manager-text h1{
+        font-weight: 700;
+        font-size: 40px;
+        color: #1F284F;
+        padding-bottom: 24px;
+    }
+    .manager-text p{
+        font-weight: 700;
+        font-size: 16px;
+        color: #575757;
+        padding-bottom: 16px;
+    }
+    .manager-text h6{
+        font-weight: 400;
+        font-size: 16px;
+        color: #575757;
+        padding-bottom: 4px;
+    }
+    .manager-text a{
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 17px;
+        color: #0070F0;
+    }
+    .company-icons img{
+        padding-top: 16px;
+        padding-right: 20px;
+    }
+    .paragraph{
+        padding-top: 44px;
+    }
+    .paragraph p{
+        font-weight: 400;
+        font-size: 16px;
+        color: #575757;
+    }
+/* company manager home page End */
+
+/* manager-msg start */
+    .manager-quote{
+        width: 100%;
+        background: #E5E5E5;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+        padding-left: 65px;
+        padding-right: 10px;
+    }
+    .message{
+        padding-top: 50px;
+        position: relative;
+    }
+    .mark img{
+        left: -49px;
+        top: 122px;
+        position: absolute;
+    }
+    .message h1{
+        text-align: center;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        color: #1F284F;
+        padding-bottom: 59px;
+    }
+    .message p{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        font-feature-settings: 'liga' off;
+        color: #575757;
+        padding-bottom: 30px;
+    }
+    .message h3{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        font-feature-settings: 'liga' off;
+        color: rgba(0, 112, 240, 0.9);
+    }
+    .message h6{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        font-feature-settings: 'liga' off;
+        color: #18191F;
+    }
+   
+/* manager-msg end */
+
+/* Footer part */
+
+footer{
+    background: #FAFBFC;
+    padding: 84px 100px 0 150px;
+}
+.title p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #515458;
+    padding: 22px 0 2px 0;
+}
+.social-icon{
+    width: 24px;
+    height: 24px;
+    border: 1px solid #515458;
+    border-radius: 24px;
+}
+.isoimg{
+    padding-bottom: 24px;
+}
+.social-icon .fb-icon{
+    padding: 5px 3px 3px 8px;  
+}
+.social-icon .tw-icon{
+    padding: 6px 0 10px 6px;  
+}
+.social-icon .linkdin-icon{
+    padding: 8px 5px 10px 8px;  
+}
+.social-icon .instagram-icon{
+    padding: 5px 6px 10px 6px;  
+}
+.social-media-icons{
+    display: flex;
+    padding-left: 20px;
+    gap: 8px;
+}
+.footer-1{
+    display: flex;
+    padding: 44px 0; 
+}
+.opmentek-features{
+    padding-left: 100px;
+}
+.opmentek-features h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #17181A;
+    padding-bottom: 24px;
+}
+.opmentek-features a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #515458;
+}
+.opmentek-features p{
+    padding-bottom: 24px;
+}
+.supports{
+    padding-left: 20px;
+}
+.support-list{
+    display: flex;
+    gap: 18px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+.support-list span{
+    color: #515458;
+}
+.support-list h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: normal;
+    color: #17181A;
+    font-feature-settings: 'salt' on, 'liga' off;
+}
+.supports h3{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 26px;
+color: #17181A;
+padding-bottom: 27px;
+}
+.footer-2{
+    display: flex;
+    padding: 44px 0; 
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+   padding: 34px 0;
+   flex-wrap: wrap;
+}
+.copyright p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+text-align: right;
+}
+.feature-list img{
+    display: none;
+}
+/* footer end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query */
+
+/* 1024px */
+@media screen and (max-width:1024px) {
+    .home {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .menubar {
+        display: block;
+    }
+
+    nav li,
+    nav button {
+        display: none;
+    }
+
+    /* header-home end */
+    .company-leader{
+        flex-wrap: wrap;
+    }
+}
+
+
+/* 768px */
+@media screen and (max-width: 768px) {
+    nav{
+        padding: 25px;
+    }
+    .manager{
+        padding: 10px;
+    }
+    .manager-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .message h1{
+        text-align: start;
+    }
+     /* footer start */
+     footer{
+        padding: 32px 16px;
+    }
+    .quality-social-media{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 0 49px 0;
+    }
+    .footer-1{
+        padding: 0;
+        flex-direction: column;
+    }
+    .footer-2{
+        padding: 49px 0 0 0;
+        flex-direction: column-reverse;
+    }
+    .support{
+        padding-top: 49px;
+        padding-left: 0;
+    }
+    .opmentek-features{
+        padding: 0 0 16px 0;
+    }
+    .opmentek-features p{
+        display: none;
+        padding-bottom: 0;
+    }
+    .isoimg{
+        padding-bottom: 0;
+    }
+    .isoimg img{
+        width: 101px;
+        height: 44px;
+    }
+    .feature-list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .feature-list img{
+        display: block;
+    }
+    .open p{
+        display: block;
+        padding-top: 16px;
+    }
+    .footer-logo {
+        width: 129px;
+        height: 22px;
+    }
+    .opmentek-features h3{
+        padding-bottom: 0;
+    }
+/* footer end */
+}
+
+/* 380px */
+@media screen and (max-width:380px) {
+    footer{
+        padding: 15px 5px 15px 5px;
+    }
+    .copyright{
+        gap: 25px;
+    }
+    hr{
+        display: block;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1150px) and (min-width:768px) {
+    footer{
+     padding: 25px;
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+    }
+    .footer-1,.footer-2{
+     padding: 25px;
+    }
+    .opmentek-features{
+     display: none;
+    }
+    .copyright{
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    }
+    hr{
+     display: none;
+    }
+ }
+
+
+
+

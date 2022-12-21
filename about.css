@@ -527,26 +527,15 @@ form input {
     transform: translate(-50%, -50%);
 }
 
-.square {
+/* .square {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     background-image: repeating-linear-gradient(11deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25) 1px, transparent 0px, transparent 4px);
     position: absolute;
     right: 45%;
-}
+} */
 
-.square2 {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background: rgba(0, 112, 240, 0.9);
-    opacity: 0.3;
-    position: absolute;
-    top: 20%;
-    right: 7%;
-    z-index: -1;
-}
 
 
 /* form and offer section end */
@@ -653,8 +642,8 @@ footer {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 12px;
+    line-height: normal;
     color: #17181A;
     font-feature-settings: 'salt' on, 'liga' off;
 }
@@ -890,9 +879,6 @@ footer {
         justify-content: flex-start;
         align-items: center;
         padding: 25px;
-    }
-    .square2{
-        display: none;
     }
     .square1{
         display: none;

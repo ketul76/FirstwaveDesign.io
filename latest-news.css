@@ -1,23 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-*{  
-    margin: 0;
+* {
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
-
-button:hover{
-    background-color: rgba(0, 0, 0, 0.781) !important;
+body {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+button:hover {
+    background-color: rgba(0, 0, 0, 0.801) !important;
     color: #FFFFFF;
     cursor: pointer;
 }
-
-body{
-    font-family: 'Poppins';
-    font-style: normal;
-}
-
 /* Header part css start */
 .menubar {
     display: none;
@@ -53,123 +50,74 @@ li a {
     cursor: pointer;
 }
 /* Header part css end */
-
-
-/* PostPage css Start */
-
-    .Home{  
+/* latest news css start */
+    .latest-news{
         background: #FAFBFC;
+        padding: 65px;
     }
-    .homes{
+    .latestnews{
         display: flex;
-        padding: 50px 0;
-        justify-content: space-evenly;
-        gap: 50px;
+        gap: 24px;
+        padding-bottom: 32px;
     }
-    .main-img{
-        width: 410px;
-        height: 530px;
+    .news{
+        display: flex;
+        
     }
-    .hometext{
-        padding-right: 30px;
-        padding-top: 85px;
+    .latest-title{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 48px;
     }
-    .hometext h1{
+    .latest-title h1{
         font-weight: 700;
-        font-size: 42px;
+        font-size: 50px;
+        line-height: 60px;
         color: #1F284F;
-        padding-bottom: 14px;
-        line-height: normal;    
     }
-    .hometext p{
+    .latest-title a{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        display: flex;
+        color: #0070F0;
+        text-decoration: none;
+        align-items: center;
+    }
+    .news-text{
+        padding-top: 10px;
+        padding-left: 24px;
+    }
+    .news-text h3{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 160%;
+        color: #000000;
+    }
+    .news-text p{
         font-weight: 400;
-        font-size: 14px;
-        color: #575757;
-        padding-bottom: 14px;
-        line-height: normal;
-    }
-    .hometext h6{
-        font-weight: 500;
-        font-size: 15px;
-        line-height: 28px;
+        font-size: 16px;
+        line-height: 160%;
         color: #17181A;
     }
-/* PostPage css End */
-
-/* question-page section start */
-
-    .question-page{
-        background: #E5E5E5;
-    }
-    .questions-subscribe{
-        display: flex;
-        justify-content: center;
-        gap: 90px;
-        padding-top: 75px;
-        padding-bottom: 25px;
-    }
-    .subscribe h4{
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 32px;color: #17181A;
-        padding-top: 16px;
-    }
-    .subscribe label{
-        font-weight: 500;
-        font-size: 12px;
-        line-height: 18px;
-        color: #515458;
-      }
-      .subscribe input{
-        width: 250px;
-        height: 48px;
-        background: #FFFFFF;    
-        border: 1px solid #B7BFC7;
-        border-radius: 7px; 
-      }
-      .subscribe ::placeholder{
+    .news-text a{
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
-        color: #575757;
+        color: #0070F0;
+        text-decoration: none;
+    }
+    .arrows{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .arrows img{
         padding-left: 8px;
-      }
-      .subscribe-btn{
-        padding-top: 16px;
-      }
-      .subscribe button{
-        width: 250px;
-        height: 48px;
-        background: rgba(0, 112, 240, 0.9);
-        border: 1px solid rgba(0, 112, 240, 0.9);
-        border-radius: 30px;
-        color: #FFFFFF;
-      }
-      /* questions-answer  */
-      .questions{
-        padding-top: 15px;
-      }
-      .answer-questions h3{
-        font-family: 'Manrope';
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 32px;
-        font-feature-settings: 'liga' off;
-        color: #18191F;
-        padding-bottom: 16px;
-      }
-      .answer-questions p{
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 27px;
-         color: #575757;
-         padding-bottom: 48px;
-      }
-      .answer-questions span a{
-        color: #006ff7;
-      }
+    }
+/* latest news css end */
 
-/* question-page section End */
 
 /* Our-blog CSS Start */
 
@@ -453,58 +401,41 @@ display: none;
 
 
 
-
-
-
-
-
-
-
-
-
 /* Media Query */
 
+/* 1024px */
 
-/* 1024px media query */
 @media screen and (max-width:1024px) {
+    .home {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
     .menubar {
         display: block;
     }
+
     nav li,
     nav button {
         display: none;
     }
-    nav{
-        padding: 10px;
-    }
-    /* header part end */
-    .questions-subscribe{
-        flex-direction: column;
-        align-items: center;
-        padding: 15px;
-        gap: 0;
+
+    /* header-home end */
+    .latestnews{
+        flex-wrap: wrap;
     }
 }
 
-
-/* media query 768px */
-
-@media screen and (max-width:768px) {
-    .main-img{
-        width: 100%;
+/* 768px */
+@media screen and (max-width: 768px) {
+    nav{
+        padding: 25px;
     }
-    .homes{
-        flex-direction: column-reverse;
-        align-items: center;
-        gap: 0;
-        padding: 15px;
+    .news{
+        flex-direction: column;
     }
-    .hometext{
-        padding: 0;
-    }
-
-    /* Footer start */
-    hr{
+      /* Footer start */
+      hr{
         display: none;
     }
     footer{
@@ -562,7 +493,6 @@ display: none;
         padding-bottom: 0;
     }
 }
-
 
 
 @media screen and (max-width: 1150px) and (min-width:768px) {
