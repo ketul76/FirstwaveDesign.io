@@ -24,21 +24,30 @@ button:hover{
 }
 .title-text{
     position: absolute;
-    left: 15%;
+    left: 10%;
     top: 25%;
 }
 span{
     color: #17181ae8;
 }
-.design{
-    padding-left: 95px;
+.design1{
+    position: absolute;
+    top: 10%;
+    padding-left: 275px;
 }
 .title-text h1{
     font-weight: 700;
-    font-size: 40px;
-    line-height: 60px;
+    font-size: 32px;
+    line-height: 40px; 
+    letter-spacing: 0.005em;
     color: #17181A;
-    padding-top: 24px;
+   padding: 22px 0;
+}
+.title-text p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #17181A;
 }
 .form{
     width: 50%;
@@ -50,7 +59,7 @@ form{
 }
 form h2{
     font-weight: 600;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 32px;
     text-align: center;
     color: #17181A;
@@ -74,14 +83,13 @@ form label{
 }
 .btn{
     padding-top: 20px;
-    padding-bottom: 16px;
+    padding-bottom: 14px;
 }
 form a{
-    font-weight: 600;
-    font-size: 14px;
+    font-weight: 400;
+    font-size: 12px;
     line-height: 18px;
     color: #1F284F;
-    text-decoration: none;
 }
 form button{
     width: 100%;
@@ -91,6 +99,15 @@ form button{
     border-radius: 30px;
     color: #FFFFFF;
 }
+form h6{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #515458;
+    padding-top: 14px;
+}
+
 form p{
     font-weight: 400;
     font-size: 14px;
@@ -144,5 +161,8 @@ form p{
     }
     form p{
         font-size: 10px;
+    }
+    .design1{
+        display: none;
     }
 }
