@@ -153,13 +153,12 @@ li a {
 /* blog home page css end */
 
 /* Our-blog CSS Start */
-
-    .our-blogs{
+.our-blogs{
         background: #E5E5E5;
         position: relative;
         padding: 50px 0;
     }
-    .Ellipse1{
+   /* .swiper-button-prev{
         width: 60px;
         height: 60px;
         border: 2px solid #898D95;
@@ -178,7 +177,12 @@ li a {
         position: absolute;
         top: 50%;
         right: 0;
-    }
+    } */
+    .swiper-wrapper {
+        display: flex;
+        justify-content: center; 
+        padding-left: 15px;
+      }
     .blog-header{
         display: flex;
         align-items: center;
@@ -196,8 +200,7 @@ li a {
         font-size: 16px;
         line-height: 24px;
         border: 1px solid #B7BFC7;
-        border-radius: 30px;
-       
+        border-radius: 30px;   
     }
     .blog-header h2{
         font-weight: 700;
@@ -211,7 +214,7 @@ li a {
         border: 1px solid rgba(0, 112, 240, 0.9);
     }  
     .all-cards{
-        width: 290px;
+        width: 290px !important;
         height: 400px;
         background: #FFFFFF;
         box-shadow: 0px 8px 16px 4px rgba(81, 84, 88, 0.08);
@@ -219,13 +222,9 @@ li a {
     }
     .blogs-all-cards{
         padding-top: 50px;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 20px;
     }
     .all-cards1{
-        width: 180px;
+        width: 290px !important;
         height: 400px;
         background: #FFFFFF;
         box-shadow: 0px 8px 16px 4px rgba(81, 84, 88, 0.08);
@@ -264,9 +263,6 @@ li a {
         line-height: 22px;
         color: #17181A;
     }
-    .all-cards1 .read-more{
-        padding-top: 35px;
-    }
     .read-more button{
         font-weight: 600;
         font-size: 16px;
@@ -295,6 +291,9 @@ li a {
         line-height: 22px;
         color: #898D95;
     }
+    .all-cards1 .read-more{
+        padding-top: 35px;
+    }
     .view{
         padding-top: 40px;
         text-align: center;
@@ -303,8 +302,7 @@ li a {
         font-weight: 600;
         font-size: 18px;
         line-height: 24px;  
-        color: #0070F0;
-       
+        color: #0070F0;     
     }
 
 /* Our-blog CSS End */
@@ -420,11 +418,11 @@ padding-bottom: 27px;
 }
 .copyright p{
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 18px;
-text-align: right;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
 }
 .feature-list img{
     display: none;

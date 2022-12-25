@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>blog Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="blog.css">
 </head>
 <body>
@@ -85,9 +86,9 @@
     
     <!-- Our Blogs  Section Start -->
         <section class="our-blogs">
-           <div class="Ellipse1">
+           <!-- <div class="Ellipse1">
             <img src="./blog-images/left1.svg"  alt="">
-           </div>
+           </div> -->
 
                 <div class="blog-header">
                     <h2>Blogs</h2>
@@ -101,8 +102,9 @@
                    </div>
                 </div>
 
-                <div class="blogs-all-cards">
-                    <div class="all-cards">
+                <div class="blogs-all-cards swiper mySwiper">
+                   <div class="swiper-wrapper">
+                    <div class="all-cards swiper-slide">
                         <img src="./blog-images/blog-1.svg" alt="">
                         <h3>Reasoning Ability</h3>
                         <p>Check your reasoning abilities.</p>
@@ -115,7 +117,7 @@
                            <p>30 Min</p>
                         </div>
                     </div>
-                    <div class="all-cards">
+                    <div class="all-cards swiper-slide">
                         <img src="./blog-images/blog-2.svg" alt="">
                         <h3>Personality Assessment</h3>
                         <p>Discover the top traits that help you excel and determine your work fit.</p>
@@ -128,7 +130,7 @@
                            <p>30 Min</p>
                         </div>
                     </div>
-                    <div class="all-cards">
+                    <div class="all-cards swiper-slide">
                         <img src="./blog-images/blog-3.svg" alt="">
                         <h3>Cope Inventory</h3>
                         <p>Discover the top traits that help you excel and determine your work fit.</p>
@@ -141,10 +143,10 @@
                            <p>30 Min</p>
                         </div>
                     </div>
-                    <div class="all-cards1">
+                    <div class="all-cards1 swiper-slide">
                         <img src="/blog-images/blog-4.svg" alt="">
-                        <h3>Entrepreneurial Personality</h3>
-                        <p>Get a clean picture of yourself with insighhtsthis.</p>
+                        <h3>Entrepreneurial <br> Personality</h3>
+                        <p>Get a clean picture of <br> yourself with insights into your <br> personality and character.</p>
                         <div class="read-more">
                            <div class="right-arrow">
                             <button>Read More</button>
@@ -152,15 +154,18 @@
                            </div>
                         </div>
                     </div>
+                   </div>
+                   <div class="Ellipse1 swiper-button-prev"></div>
+                   <div class="Ellipse2 swiper-button-next"></div>
                 </div>
 
                 <div class="view">
                     <h3>View All</h3>
                 </div>
 
-           <div class="Ellipse2">
+           <!-- <div class="Ellipse2">
             <img src="./blog-images/right2.svg" alt="">
-           </div>
+           </div> -->
         </section>
     <!-- Our Blogs  Section End -->
 
@@ -315,5 +320,7 @@
     </footer>
 
     <!-- footer Section ENd -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="blog.js"></script>
 </body>
 </html>
