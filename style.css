@@ -181,7 +181,13 @@ input[type="radio"]:checked+label {
 }
 
 .companylist1 {
+    display: flex;
+    justify-content: center;
     padding-bottom: 16px;
+}
+.companylist2{
+    display: flex;
+    justify-content: center;
 }
 
 .about {
@@ -1298,4 +1304,13 @@ footer{
     display: none;
    }
 
+}
+
+@media screen and (max-width: 500px) {
+    .testimonial{
+        height: 100%;
+    }
+    .testimonial-card2{
+        display: none;
+    }
 }
