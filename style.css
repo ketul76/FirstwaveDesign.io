@@ -485,10 +485,10 @@ padding-top: 16px;
 /* Testimonial part */
 
 .testimonial{
-    width: 100%;
     background: #E5E5E5;
     position: relative;
-    min-height: 100vh;
+    width: 100%;
+    height: 100vh;
     padding: 25px;
 }
 .testimonial-title{
@@ -541,11 +541,9 @@ padding-top: 16px;
 .testimonial-cards{
     display: flex;
     gap: 30px;
-    padding-top: 80px;
-    padding-left: 190px;
-}
-.another-cards{
-    position: relative;
+    left: 250px;
+    bottom: 50px;
+    position: absolute;
 }
 .testimonialimg{
     margin-left: 16px;
@@ -708,13 +706,13 @@ footer{
     font-feature-settings: 'salt' on, 'liga' off;
 }
 .support h3{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 26px;
-color: #17181A;
-padding-bottom: 27px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #17181A;
+    padding-bottom: 27px;
 }
 .footer-2{
     display: flex;
@@ -723,16 +721,16 @@ padding-bottom: 27px;
 .copyright{
     display: flex;
     justify-content: space-between;
-   padding: 34px 0;
-   flex-wrap: wrap;
+    padding: 34px 0;
+    flex-wrap: wrap;
 }
 .copyright p{
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 18px;
-text-align: right;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
 }
 .feature-list img{
     display: none;
@@ -794,7 +792,6 @@ text-align: right;
     .header {
         flex-direction: row-reverse;
         padding: 17px 0;
-        /* padding-left: 16px; */
     }
 
     .logo-img {
@@ -1303,7 +1300,32 @@ footer{
    hr{
     display: none;
    }
+   .testimonial{
+    position: static;
+   }
+   .testimonial-cards{
+    position: static;
+   }
+    .testimonial-card2,.testimonial-card3{
+        position: static;
+   }
 
+}
+
+
+@media screen and (max-width: 768px) {
+    .testimonial{
+        position: static;
+       }
+       .testimonial-cards{
+        position: static;
+       }
+        .testimonial-card2,.testimonial-card3{
+            position: static;
+       }
+       .another-cards{
+        display: none;
+       }
 }
 
 @media screen and (max-width: 500px) {
@@ -1312,5 +1334,14 @@ footer{
     }
     .testimonial-card2{
         display: none;
+    }
+}
+
+@media only screen and (max-width: 2560px) and (min-width: 1640px) {
+    .testimonial{
+        height: 40vh;
+    }
+    .testimonial-cards{
+        left: 500px;
     }
 }
